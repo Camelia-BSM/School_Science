@@ -31,8 +31,9 @@ Comme précisé précédemment, le site ne prendra pas en charge de quelconque c
 
 ## Etat actuel du projet
 
-La maquette et le design du projet sont encore en cours de développement, ceux-ci seront achevés dès fin aout 2026. 
+La maquette du projet a été publiée sur linkedin. La page d'accueil est en cours de développement (voir commits récents)
 
 
 ## Historique des mises à jour 
 
+Sam 3 oct 2026 : Premier commit, première squelette du site web sans css aboutit
