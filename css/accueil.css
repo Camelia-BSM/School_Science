@@ -1,0 +1,62 @@
+header {
+    margin: 0px;
+    padding-top: px;
+    background-color: blue;
+    
+}
+
+header img {
+    width: 100%;
+    height: relative;
+}
+
+.niveau {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.slogan {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.college {
+    border: solid;
+    margin-right: 100px;
+    
+}
+
+.college h1 {
+    display: flex;
+    justify-content: center;
+}
+.lycee {
+    border: solid;
+}
+
+section {
+    
+    justify-content: center;
+}
+
+.lycee h1 {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    margin: 0px;
+}
+
+footer li {
+    display: flex;
+    justify-content: center;
+}
+
+.actualite {
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+}
