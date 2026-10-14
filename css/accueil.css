@@ -1,7 +1,6 @@
 header {
     margin: 0px;
     padding-top: px;
-    background-color: blue;
     
 }
 
@@ -13,7 +12,6 @@ header img {
 .niveau {
     display: flex;
     justify-content: center;
-    
 }
 
 .slogan {
@@ -28,16 +26,43 @@ header img {
     
 }
 
-.college h1 {
-    display: flex;
-    justify-content: center;
-}
 .lycee {
+    border: solid;
+    justify-content: block;
+}
+
+.niveau_lycee {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.niveau_lycee p {
     border: solid;
 }
 
-section {
+.lycee div, p {
+    display: flex;
+    justify-content: center;
+}
+
+.niveau_college {
+    display: flex;
+    flex-direction: column;
+}
+
+.niveau_college p {
+    border: solid;
     
+}
+
+.college div, p {
+    display: flex;
+    justify-content: center;
+}
+
+.college h1 {
+    display: flex;
     justify-content: center;
 }
 
@@ -46,17 +71,33 @@ section {
     justify-content: center;
 }
 
+section {
+    justify-content: center;
+}
+
+
 body {
     margin: 0px;
+    background-color: #0F1F35;
+    color: white;
 }
 
 footer li {
     display: flex;
     justify-content: center;
+    background-color: black;
+    color: white;;
 }
+
 
 .actualite {
     margin-top: 90px;
     display: flex;
     justify-content: center;
+}
+
+.actualite {
+    border: solid;
+    margin-right: 500px;
+    margin-left: 500px;
 }
