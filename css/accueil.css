@@ -22,43 +22,54 @@ header img {
 
 .college {
     border: solid;
+    border-radius: 50px;
     margin-right: 100px;
     
 }
 
 .lycee {
     border: solid;
-    justify-content: block;
+    border-radius: 50px;
+    
 }
 
 .niveau_lycee {
     display: flex;
     flex-direction: column;
-    
-}
-
-.niveau_lycee p {
-    border: solid;
-}
-
-.lycee div, p {
-    display: flex;
-    justify-content: center;
+    padding: 100px
 }
 
 .niveau_college {
     display: flex;
     flex-direction: column;
+    padding: 100px
 }
 
-.niveau_college p {
+.niveau_lycee div {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.niveau_college div {
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.niveau_college div p {
     border: solid;
-    
+    margin: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 30px;
+    text-align: center;
 }
 
-.college div, p {
-    display: flex;
-    justify-content: center;
+.niveau_lycee div p {
+    border: solid;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 100px;
+    text-align: center;
 }
 
 .college h1 {
@@ -67,6 +78,16 @@ header img {
 }
 
 .lycee h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.college p {
+    display: flex;
+    justify-content: center;
+}
+
+.lycee p {
     display: flex;
     justify-content: center;
 }
@@ -98,6 +119,8 @@ footer li {
 
 .actualite {
     border: solid;
+    border-radius: 50px;
     margin-right: 500px;
     margin-left: 500px;
+    padding: 15px;
 }
