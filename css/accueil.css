@@ -21,56 +21,98 @@ header img {
 }
 
 .college {
-    border: solid;
+    
     border-radius: 50px;
     margin-right: 100px;
-    
+    background-image: linear-gradient(to bottom, #0B55A9, #070707);
+    position: relative;
+}
+
+.college::before {
+    content: '';
+    background-color: #00B2FF ;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    margin: -1px;
+    border-radius: 50px;
 }
 
 .lycee {
-    border: solid;
+
+    background-image: linear-gradient(to bottom, #F90000, #000000);
+    position: relative;
     border-radius: 50px;
-    
+}
+
+.lycee::before {
+    content: '';
+    background-color: #F80000;
+    border-radius: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    margin: -1px;
 }
 
 .niveau_lycee {
     display: flex;
     flex-direction: column;
-    padding: 100px
+    padding: 50px
 }
 
 .niveau_college {
     display: flex;
     flex-direction: column;
-    padding: 100px
+    padding: 50px
 }
 
 .niveau_lycee div {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .niveau_college div {
     margin-left: 50px;
-    margin-right: 20px;
+    margin-right: 50px;
 }
 
 .niveau_college div p {
+    background-color: black;
     border: solid;
-    margin: 20px;
-    padding-left: 80px;
-    padding-right: 80px;
+    border-color: white;
+    border-width: 1px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 50px;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+
+.niveau_lycee div p {
+    border: solid;
+    background-color: black;
+    border-color: white;
+    border-width: 1px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     border-radius: 30px;
     text-align: center;
 }
 
-.niveau_lycee div p {
-    border: solid;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border-radius: 100px;
-    text-align: center;
-}
+
 
 .college h1 {
     display: flex;
