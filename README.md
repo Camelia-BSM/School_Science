@@ -37,3 +37,4 @@ La maquette du projet a été publiée sur linkedin. La page d'accueil est en co
 ## Historique des mises à jour 
 
 Sam 3 oct 2026 : Premier commit, première squelette du site web sans css aboutit
+Sam 17 oct 2026 : Les couleurs de la page d'accueil sont presque prêtes. La prochaine mise à jour est de rendre la page responsive (design adaptable à tous les formats d'écrans)
