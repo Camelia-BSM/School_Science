@@ -1,7 +1,20 @@
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #0F1F35;
+    color: white;
+}
+
 header {
     margin: 0px;
-    padding-top: px;
-    
 }
 
 header img {
@@ -12,20 +25,55 @@ header img {
 .niveau {
     display: flex;
     justify-content: center;
+    
 }
 
 .slogan {
     display: flex;
     justify-content: center;
     margin-bottom: 80px;
+    font-family: "Major Mono Display", monospace;
+    font-weight: 400;
+    font-style: normal;
+    background-image: linear-gradient(to right, #FF0000, #E1FF00);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
 }
 
+
+
 .college {
-    
     border-radius: 50px;
     margin-right: 100px;
     background-image: linear-gradient(to bottom, #0B55A9, #070707);
     position: relative;
+    transition: all 0.2s;
+}
+
+.college p {
+    font-family: "Lusitana", serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+}
+
+.college h1 {
+    font-size: 400%;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.lycee h1 {
+    font-size: 400%;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: italic;
 }
 
 .college::before {
@@ -42,11 +90,13 @@ header img {
 }
 
 .lycee {
-
     background-image: linear-gradient(to bottom, #F90000, #000000);
     position: relative;
     border-radius: 50px;
+    transition: all 0.2s;
 }
+
+
 
 .lycee::before {
     content: '';
@@ -70,7 +120,7 @@ header img {
 .niveau_college {
     display: flex;
     flex-direction: column;
-    padding: 50px
+    padding: 50px;
 }
 
 .niveau_lycee div {
@@ -95,7 +145,6 @@ header img {
     border-radius: 50px;
     text-align: center;
     position: relative;
-    color: white;
 }
 
 
@@ -124,45 +173,70 @@ header img {
     justify-content: center;
 }
 
-.college p {
-    display: flex;
-    justify-content: center;
-}
 
 .lycee p {
     display: flex;
     justify-content: center;
+    font-family: "Lusitana", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-section {
-    justify-content: center;
-}
-
-
-body {
-    margin: 0px;
-    background-color: #0F1F35;
-    color: white;
-}
 
 footer li {
     display: flex;
     justify-content: center;
     background-color: black;
-    color: white;;
+    color: white;
+    border: solid;
+    margin-bottom: 0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 15%;
 }
 
 
 .actualite {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     margin-top: 90px;
     display: flex;
     justify-content: center;
+    border: solid;
+    border-color: black;
+    border-radius: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+    padding: 2%;
+    background-image: linear-gradient(to right, #068706, #000000);
+    transition: all 0.4s;
 }
 
-.actualite {
-    border: solid;
-    border-radius: 50px;
-    margin-right: 500px;
-    margin-left: 500px;
-    padding: 15px;
+.actualite:hover {
+    transform: scale(1.02);
+}
+.cob {
+    background-image: linear-gradient(to right, #FFFFFF, #43A4FF);
+    background-clip: text;
+    color: transparent;
+    
+}
+
+.lob {
+    background-image: linear-gradient(to right, #FFFFFF, #F30505);
+    background-clip: text;
+    color: transparent;
+    
+}
+
+.college:hover {
+    transform: scale(1.07);
+}
+
+.lycee:hover {
+    transform: scale(1.07);
 }
