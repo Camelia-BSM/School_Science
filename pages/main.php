@@ -12,6 +12,7 @@ ini_set('display_startup_errors', 1);
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">  -->
     <title>School_Science</title>
     <link rel="stylesheet" href="../css/accueil.css">
+    <link rel="stylesheet" href="../css/static.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap" rel="stylesheet">
@@ -56,20 +57,20 @@ ini_set('display_startup_errors', 1);
                     seconde à la terminale en...</p>
                 <div class="niveau_lycee">
                     <div class="Seconde">
-                        <a href="/html/matiere.html"><p>Seconde</p></a>
+                        <a href="/html/matiere.php"><p>Seconde</p></a>
                     </div>
                     <div class="Premiere">
-                        <a href="/html/matiere.html"><p>Première</p></a>
+                        <a href="/html/matiere.php"><p>Première</p></a>
                     </div>
                     <div class="Terminale">
-                        <a href="/html/matiere.html"><p>Terminale</p></a>
+                        <a href="/html/matiere.php"><p>Terminale</p></a>
                     </div>
                 </div>
                 
                 <p class="lob">Objectif : réussir le baccalauréat</p>
             </div>
         </div>
-        <a href="../pages/actualite.html"><h1 class="actualite">Actualité du site</h1></a>
+        <a href="../pages/actualite.php"><h1 class="actualite">Actualité du site</h1></a>
     </section>
     <?php
     include("../static_html/footer.php")
