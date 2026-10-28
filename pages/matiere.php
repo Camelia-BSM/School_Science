@@ -19,6 +19,7 @@
 <body>
     <?php
     include("../static_html/header.php");
+    echo $_POST["niveau"];
     ?>
     <h1 style="color: #00C3D0; font-family: 'Mukta Malar', sans-serif; font-weight: 200;font-style: normal; text-align: center;">Choisis ta matière</h1>
     <section>

@@ -35,20 +35,37 @@ ini_set('display_startup_errors', 1);
                 <p>Des dizaines de cours proposés gratuitement de <br> la 
                     sixième à la troisième en...</p>
                 <div class="niveau_college">
-                    <div class="seme">
-                        <a href="../pages/matiere.php"><p>6ème</p></a>
-                    </div>
-                    <div class="ceme">
-                        <a href="../pages/matiere.php"><p>5ème</p></a>
-                    </div>
-                    <div class="qeme">
-                        <a href="../pages/matiere.php"><p>4ème</p></a>
-                    </div>
-                    <div class="teme">
-                        <a href="../pages/matiere.php"><p>3ème</p></a>
-                    </div>
+                    <form action="../pages/matiere.php" method="post">
+                            <div class="seme">
+                                <a href="../pages/matiere.php">
+                                    <button name="niveau" value="6ème">
+                                        <p>6ème</p>
+                                    </button>
+                                </a>
+                            </div>
+                            <div class="ceme">
+                                <a href="../pages/matiere.php">
+                                    <button name="niveau" value="5ème">
+                                        <p>5ème</p>
+                                    </button>
+                                </a>
+                            </div>
+                            <div class="qeme">
+                                <a href="../pages/matiere.php">
+                                    <button name="niveau" value="4ème">
+                                        <p>4ème</p>
+                                    </button>
+                                </a>
+                            </div>
+                            <div class="teme">
+                                <a href="../pages/matiere.php">
+                                    <button name="niveau" value="3ème">
+                                        <p>3ème</p>
+                                    </button>
+                                </a>
+                            </div>
+                    </form>
                 </div>
-                
                 <p class="cob">Objectif : réussir le brevet</p>
             </div>
             <div class="lycee">
