@@ -57,13 +57,13 @@ ini_set('display_startup_errors', 1);
                     seconde à la terminale en...</p>
                 <div class="niveau_lycee">
                     <div class="Seconde">
-                        <a href="/html/matiere.php"><p>Seconde</p></a>
+                        <a href="../pages/matiere.php"><p>Seconde</p></a>
                     </div>
                     <div class="Premiere">
-                        <a href="/html/matiere.php"><p>Première</p></a>
+                        <a href="../pages/matiere.php"><p>Première</p></a>
                     </div>
                     <div class="Terminale">
-                        <a href="/html/matiere.php"><p>Terminale</p></a>
+                        <a href="../pages/matiere.php"><p>Terminale</p></a>
                     </div>
                 </div>
                 
