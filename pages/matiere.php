@@ -19,19 +19,27 @@
 <body>
     <?php
     include("../static_html/header.php");
-    echo $_POST["niveau"];
     ?>
     <h1 style="color: #00C3D0; font-family: 'Mukta Malar', sans-serif; font-weight: 200;font-style: normal; text-align: center;">Choisis ta matière</h1>
     <section>
         <div class="matiere">
-        <div class="physique">
-            <h1>Physique-chimie</h1>
-            <p>Cours et exercices pour<br>comprendre les phénomènes<br>physiques et chimiques</p>
-        </div>
-        <div class="math">
-            <h1>Mathematique</h1>
-            <p>Cours et exercices pour<br>progresser et maîtriser les<br>notions essentielles</p>
-        </div>
+            <form action="../traitement/niveau.php" method="post">
+                <div class="physique">
+                    <button name="matiere" value="physique">
+                            <h1>Physique-chimie</h1>
+                            <p>Cours et exercices pour<br>comprendre les phénomènes<br>physiques et chimiques</p>
+                    </button>
+                </div>
+            </form>
+            
+            <form action="../traitement/niveau.php" method="post">
+                <div class="math">
+                    <button name="matiere" value="math">
+                        <h1>Mathematique</h1>
+                        <p>Cours et exercices pour<br>progresser et maîtriser les<br>notions essentielles</p>
+                    </button>
+                </div>
+            </form>
         </div>
     </section>
     

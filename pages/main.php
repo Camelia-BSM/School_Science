@@ -35,7 +35,7 @@ ini_set('display_startup_errors', 1);
                 <p>Des dizaines de cours proposés gratuitement de <br> la 
                     sixième à la troisième en...</p>
                 <div class="niveau_college">
-                    <form action="../pages/matiere.php" method="post">
+                    <form action="../traitement/niveau.php" method="post">
                             <div class="seme">
                                 <a href="../pages/matiere.php">
                                     <button name="niveau" value="6ème">
@@ -73,15 +73,30 @@ ini_set('display_startup_errors', 1);
                 <p>Des dizaines de cours proposés gratuitement de <br> la 
                     seconde à la terminale en...</p>
                 <div class="niveau_lycee">
-                    <div class="Seconde">
-                        <a href="../pages/matiere.php"><p>Seconde</p></a>
-                    </div>
-                    <div class="Premiere">
-                        <a href="../pages/matiere.php"><p>Première</p></a>
-                    </div>
-                    <div class="Terminale">
-                        <a href="../pages/matiere.php"><p>Terminale</p></a>
-                    </div>
+                    <form action="../traitement/niveau.php" method="post">
+                        <div class="seconde">
+                            <button name="niveau" value="seconde">
+                                <p>Seconde</p>
+                            </button>
+                            <a href="../pages/matiere.php"></a>
+                        </div>
+
+                        <div class="Premiere">
+                        <a href="../pages/matiere.php"></a>
+                            <button name="niveau" value="premiere">
+                                <p>Premiere</p>
+                            </button>
+                        
+                        </div>
+
+                        <div class="Terminale">
+                        <a href="../pages/matiere.php"></a>
+                            <button name="niveau" value="terminale">
+                                <p>Terminale</p>
+                            </button>
+                        </div>
+                    </form>
+                    
                 </div>
                 
                 <p class="lob">Objectif : réussir le baccalauréat</p>

@@ -97,6 +97,7 @@
 .niveau_college {
     display: flex;
     flex-direction: column;
+    column-gap: 100px;
     padding: 50px;
 }
 
@@ -110,32 +111,35 @@
     margin-right: 50px;
 }
 
-.niveau_college div p {
+.niveau_college button {
     background-color: black;
     border: solid;
     border-color: white;
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+    margin: 20px;
     border-width: 1px;
     padding-left: 100px;
     padding-right: 100px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-radius: 50px;
-    text-align: center;
-    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 
-.niveau_lycee div p {
-    border: solid;
+.niveau_lycee button {
     background-color: black;
+    border: solid;
     border-color: white;
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+    margin: 20px;
     border-width: 1px;
     padding-left: 100px;
     padding-right: 100px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-radius: 30px;
-    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 
