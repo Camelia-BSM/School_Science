@@ -23,23 +23,24 @@
     <h1 style="color: #00C3D0; font-family: 'Mukta Malar', sans-serif; font-weight: 200;font-style: normal; text-align: center;">Choisis ta matière</h1>
     <section>
         <div class="matiere">
-            <form action="../traitement/niveau.php" method="post">
-                <div class="physique">
-                    <button name="matiere" value="physique">
-                            <h1>Physique-chimie</h1>
-                            <p>Cours et exercices pour<br>comprendre les phénomènes<br>physiques et chimiques</p>
-                    </button>
-                </div>
-            </form>
+            <div class="physique">
+                <form action="../traitement/niveau.php" method="post" name="phys">
+                        <button name="matiere" value="physique">
+                                <h1>Physique-chimie</h1>
+                                <p>Cours et exercices pour<br>comprendre les phénomènes<br>physiques et chimiques</p>
+                        </button>
+                </form>
+            </div>
             
-            <form action="../traitement/niveau.php" method="post">
-                <div class="math">
+            <div class="math">
+                <form action="../traitement/niveau.php" method="post">
                     <button name="matiere" value="math">
                         <h1>Mathematique</h1>
                         <p>Cours et exercices pour<br>progresser et maîtriser les<br>notions essentielles</p>
                     </button>
-                </div>
-            </form>
+                </form>
+            </div>
+            
         </div>
     </section>
     
