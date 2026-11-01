@@ -1,7 +1,6 @@
 
 section {
-    border: solid;
-    border-color: red;
+    
     border-width: 10px;
     margin: 10%;
 }
@@ -26,33 +25,43 @@ section {
     border-width: 1px;
     border-color: white;
     transition: all 0.7s;
+    
+    
+}
+
+.physique p {
+    margin-top: 20%;
+    color: white;
     font-family: "Afacad", sans-serif;
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
 }
 
-.physique p {
-    margin-top: 20%;
-}
-
 .math p {
     margin-top: 20%;
+    color: white;
+    font-family: "Afacad", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
 }
 
 form {
     display: flex;
     height: 100%;
+    background-color: transparent;
 }
 
 button {
     height: 100%;
     width: 100%;
+    background-color: transparent;
+    border: none;
 }
 
 button h1 {
     margin-top: 0;
-    
 }
 
 .math {
@@ -76,12 +85,14 @@ button h1 {
     font-family: "Mate SC", serif;
     font-weight: 400;
     font-style: normal;
+    color: white;
 }
 
 .math h1 {
     font-family: "Mate SC", serif;
     font-weight: 400;
     font-style: normal;
+    color: white;
 }
 
 
