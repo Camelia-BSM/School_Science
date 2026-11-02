@@ -1,4 +1,5 @@
 <?php
+session_start();
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 ini_set('display_startup_errors', 1);
@@ -38,28 +39,28 @@ ini_set('display_startup_errors', 1);
                     <form action="../traitement/niveau.php" method="post">
                             <div class="seme">
                                 <a href="../pages/matiere.php">
-                                    <button name="niveau" value="6ème">
+                                    <button name="niveau" value="6eme">
                                         <p>6ème</p>
                                     </button>
                                 </a>
                             </div>
                             <div class="ceme">
                                 <a href="../pages/matiere.php">
-                                    <button name="niveau" value="5ème">
+                                    <button name="niveau" value="5eme">
                                         <p>5ème</p>
                                     </button>
                                 </a>
                             </div>
                             <div class="qeme">
                                 <a href="../pages/matiere.php">
-                                    <button name="niveau" value="4ème">
+                                    <button name="niveau" value="4eme">
                                         <p>4ème</p>
                                     </button>
                                 </a>
                             </div>
                             <div class="teme">
                                 <a href="../pages/matiere.php">
-                                    <button name="niveau" value="3ème">
+                                    <button name="niveau" value="3eme">
                                         <p>3ème</p>
                                     </button>
                                 </a>
