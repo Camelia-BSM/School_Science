@@ -1,17 +1,37 @@
 <?php
 session_start();
+
+$matiere = $_SESSION["matiere"] ;
+$niveau = $_SESSION["niveau"];
+echo $matiere;
+echo $niveau;
 ?>
+
 
 <div class="bandeau">
     <form action="../traitement/page_accueil.php" method="post" name="niveau">
-        <select name="choix_niveau" id="">
-            <option value="Terminal">Terminal</option>
-            <option value="Premiere">Premiere</option>
-            <option value="Seconde">Seconde</option>
-            <option value="3eme">3eme</option>
-            <option value="4eme">4eme</option>
-            <option value="5eme">5eme</option>
-            <option value="6eme">6eme</option>
+        <select name="choix_niveau" onchange="window.location.href = this.value">
+            <?php
+                echo "<option value='/School_Science/cours_$matiere/pages_accueil_$matiere/terminal.php'>Terminal</option>";
+            ?>
+            <?php
+                echo "<option value='/School_Science/cours_$matiere/pages_accueil_$matiere/premiere.php'>Premiere</option>"
+            ?>
+            <?php
+                echo "<option value='/School_Science/cours_$matiere/pages_accueil_$matiere/seconde.php'>Seconde</option>"
+            ?>
+            <?php
+                echo "<option value='/School_Science/cours_$matiere/pages_accueil_$matiere/3eme.php'>3eme</option>"
+            ?>
+            <?php
+                echo "<option value='/School_Science/cours_$matiere/pages_accueil_$matiere/4eme.php'>4eme</option>"
+            ?>
+            <?php
+                echo "<option value='/School_Science/cours_$matiere/pages_accueil_$matiere/5eme.php'>5eme</option>"
+            ?>
+            <?php
+                echo "<option value='/School_Science/cours_$matiere/pages_accueil_$matiere/6eme.php'>6eme</option>"
+            ?>
         </select>
     </form>
 
@@ -23,3 +43,4 @@ session_start();
         </select>
     </form>
 </div>
+

@@ -14,7 +14,7 @@
     include("../../static_html/bandeau.php");
     ?>
     <section>
-
+        <p>page des 3eme en physique</p>
     </section>
     <?php
     include("../../static_html/footer.php")
